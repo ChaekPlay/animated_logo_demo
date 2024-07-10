@@ -78,6 +78,7 @@ class _AnimatedLoadingDemoState extends State<AnimatedLoadingDemo>
         animation: _controller,
         builder: (context, child) {
           return Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(
                 height: 200,
